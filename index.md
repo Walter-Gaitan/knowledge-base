@@ -13,3 +13,13 @@ Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answe
 * [LMS QA Course Overview](/docs/LMS_QA_Course_Overview_and_Syllabus_Checklist.md)
 * [Syllabus Issues](docs/syllabus-issues.md)
 * [Post-Sync QA Copilot Prompt](/docs/PSQA.md)
+
+# Blogs
+{% for post in site.posts %}
+ 
+<ul>
+ 
+<li><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></li>
+ 
+</ul>
+{% endfor %}
