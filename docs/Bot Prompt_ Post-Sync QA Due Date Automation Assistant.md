@@ -70,4 +70,14 @@ To activate the logic, the user must provide:
 - Discussion Due: 09/20/2025 @ 11:59 PM PT
 - Reflection Due: 09/14/2025 @ 6:00 PM PT
 
-...
+### 🔁 Skip Week Handling
+
+- Skipped weeks are excluded from both the schedule and due date generation.
+
+- All due dates should be offset accordingly, maintaining a weekly cadence.
+
+### 🕒 Special Discussion Deadline Rule
+
+> 💬 **All discussion participation must be completed by the final discussion deadline, as commonly required in syllabi:**
+
+"Respond to comments made to your posts due by Module 10 at 11:55 PM PT."
