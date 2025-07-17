@@ -2,22 +2,15 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-
+Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answers to common questions about using and managing the Learning Management System. Use the links below to navigate through course materials, policies, and helpful documentation.
 
 * * *
 
-### Here is an unordered list:
+### Here is the list of documents, meant to be constantly changing:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
+* [Course Outline](./docs/course-outline.md)
+* [Discrepancies](.docs/discrepancies.md)
+* [FAQ](./docs/faq.md)
+* [Grading](./docs/grading.md)
+* [LMS QA Course Overview](/docs/LMS_QA_Course_Overview_and_Syllabus_Checklist.md)
+* [Syllabus Issues](docs/syllabus-issues.md)
