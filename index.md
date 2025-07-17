@@ -9,9 +9,7 @@ Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answe
 ### Here is the list of documents, meant to be constantly changing:
 
 * [Course Outline](./docs/course-outline.md)
-* [Discrepancies](.docs/discrepancies.md)
-* [FAQ](./docs/faq.md)
 * [Grading](./docs/grading.md)
 * [LMS QA Course Overview](/docs/LMS_QA_Course_Overview_and_Syllabus_Checklist.md)
 * [Syllabus Issues](docs/syllabus-issues.md)
-* [Post-Sync QA Copilot Prompt](/docs/Bot%20Prompt_%20Post-Sync%20QA%20Due%20Date%20Automation%20Assistant.md)
+* [Post-Sync QA Copilot Prompt](/docs/PSQA.md)
