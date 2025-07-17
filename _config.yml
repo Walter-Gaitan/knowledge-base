@@ -1,0 +1,16 @@
+title: LMS QA Knowledge Base
+description: Internal documentation for LMS QA and automation workflows
+theme: jekyll-theme-primer
+
+# Enable GitHub Pages Jekyll processing
+markdown: kramdown
+highlighter: rouge
+
+# Optional: Exclude non-relevant files from the site build
+exclude:
+  - README.md
+  - LICENSE
+  - .github/
+
+# Enable relative links and assets
+permalink: pretty
