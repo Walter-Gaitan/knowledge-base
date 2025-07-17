@@ -5,6 +5,7 @@ This bot prompt automates Post-Sync QA tasks for LMS course shells. It generates
 - 🧾 Course info summary  
 - 📅 Adjusted module schedule with time and skipped weeks  
 - 📌 Automated due dates for assignments, discussions, and reflections  
+- ✅ **Grade distribution check against syllabus**
 
 ---
 
@@ -55,3 +56,10 @@ Format the output as a clean table.
 > 💬 **All discussion participation must be completed by the final discussion deadline, as commonly required in syllabi:**
 
 "Respond to comments made to your posts due by Module 10 at 11:55 PM PT."
+
+---
+
+### 📊 Grade Distribution Check
+
+- **Verify that the overall grade distribution in the LMS matches the syllabus.**
+- List any discrepancies between the LMS gradebook and the syllabus.
