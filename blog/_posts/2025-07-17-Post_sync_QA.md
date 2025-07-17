@@ -1,4 +1,8 @@
-# 🧠 Post-Sync QA Copilot Prompt
+---
+layout: default
+title: "🧠 Post-Sync QA Copilot Prompt"
+date: 2024-06-10
+---
 
 This bot prompt automates Post-Sync QA tasks for LMS course shells. It generates:
 
@@ -50,6 +54,7 @@ To activate the logic, the user must provide:
 | 9      | 11/09/2025  | 6:00 AM – 9:00 AM      |
 | 10     | 11/16/2025  | 6:00 AM – 9:00 AM      |
 
+---
 
 | Deliverable Type | Due Date Rule                                      |
 | ---------------- | -------------------------------------------------- |
