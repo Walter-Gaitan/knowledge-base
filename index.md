@@ -6,14 +6,6 @@ Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answe
 
 * * *
 
-### Here is the list of documents, meant to be constantly changing:
-
-* [Course Outline](./docs/course-outline.md)
-* [Grading](./docs/grading.md)
-* [LMS QA Course Overview](/docs/LMS_QA_Course_Overview_and_Syllabus_Checklist.md)
-* [Syllabus Issues](docs/syllabus-issues.md)
-* [Post-Sync QA Copilot Prompt](/docs/PSQA.md)
-
 # Blogs
 {% for post in site.posts %}
  
@@ -23,3 +15,10 @@ Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answe
  
 </ul>
 {% endfor %}
+
+*** 
+
+## Quick Links
+
+- [Getting Started Guide](getting-started.md)
+- [Support & Contact](support.md)

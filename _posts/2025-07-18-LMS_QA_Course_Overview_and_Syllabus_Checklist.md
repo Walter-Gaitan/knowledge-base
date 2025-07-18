@@ -1,3 +1,11 @@
+---
+layout: default
+title: LMS QA Course Overview and Syllabus Checklist  
+author: WG
+date: 2025-07-18  
+tags: [LMS, QA, Syllabus, Course Overview]  
+description: Step-by-step checklist for reviewing LMS course overview and syllabus for quality assurance.
+---
 
 # ✅ LMS QA Agent Instructions: Course Overview and Syllabus
 

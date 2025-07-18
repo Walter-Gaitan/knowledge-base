@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Course Outline Issues
 
 ## Module 1 | ATI Skills Module: Concepts of Medication Administration
