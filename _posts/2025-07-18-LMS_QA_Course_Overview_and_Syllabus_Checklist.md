@@ -9,65 +9,74 @@ description: Step-by-step checklist for reviewing LMS course overview and syllab
 
 # ✅ LMS QA Agent Instructions: Course Overview and Syllabus
 
-Review the *Course Overview and Syllabus* section using the criteria below. Only report findings if a change is required.  
-If everything complies, state:  
+Review the *Course Overview and Syllabus* section using the criteria below.  
+Only report findings **if a change is required**.  
+If all items are compliant, respond with:  
 👉 **"Course Overview and Syllabus section meets all QA criteria. No changes required."**
 
 ---
 
 ## 🔍 Checklist
 
-1. **Review the syllabus to identify potential errors.**
+1. **Are there any syllabus formatting or structural errors?**
+   - Font sizes, headers, and spacing are consistent  
+   - Content aligns with institutional style guidelines  
+   - Course title, term, instructor info, and policies are correct  
+   - Formatting is clean (no overflow, broken numbering, or excessive spacing)  
+   - Accessibility and readability standards are met
 
-2. **Banner image matches the course code and title.**  
-   - Banner does match the course code and title.  
-   - Banner does not match the course code and title or is missing. Documented.  
-   - N/A
+2. **Banner image matches the course code and title**
+   - ✅ Banner is correct  
+   - ❌ Banner is incorrect or missing — Documented  
+   - 🔲 N/A
 
-3. **In the 'Start Course Orientation' module, open 'Course Overview and Syllabus':**  
-   - The syllabus is in PDF format and under the correct section.  
-   - Syllabus does not comply with at least one of these points. Documented.
+3. **Open "Course Overview and Syllabus" in the ‘Start Course Orientation’ module**
+   - ✅ Syllabus is in PDF format and placed in the correct section  
+   - ❌ File type or location is incorrect — Documented
 
-4. **Header contains the correct class code and name.**  
-   - They’re both correct.  
-   - At least one item is incorrect/missing. Documented.  
-   - N/A
+4. **Header contains the correct class code and course name**
+   - ✅ Header is correct  
+   - ❌ Header is incorrect or missing — Documented  
+   - 🔲 N/A
 
-5. **College name and logo are correct.**  
-   - They’re both correct.  
-   - Logo and/or college name are incorrect. Documented.
+5. **College name and logo are correct**
+   - ✅ Both are correct  
+   - ❌ One or both are incorrect — Documented
 
-6. **Document is named after the Class Code and Instructor (e.g., CL820.01.2021F.SD Lane).**  
-   - Named accordingly.  
-   - Not named accordingly. Documented.
+6. **Syllabus file is named using the correct convention**
+   - Format: `[ClassCode].[Term].[InstructorName]` (e.g., `CL820.01.2021F.SD Lane`)  
+   - ✅ Named accordingly  
+   - ❌ Not named accordingly — Documented
 
-7. **All links in the syllabus work correctly.**  
-   - Yes, links work correctly.  
-   - No, at least one link is broken. Documented.
+7. **All mentioned resources that require hyperlinks are linked and functional**
+   - ✅ All required links work correctly  
+   - ❌ A required link is broken or missing — Documented  
+   - 🔲 Not applicable (file is attached/embedded without hyperlink)
 
-8. **Comments and revisions are hidden.**  
-   - Comments and revisions are not showing.  
-   - Comments and/or revisions are visible. Documented.
 
-9. **No colors indicating tracked changes are visible.**  
-   - No colors reflecting changes.  
-   - Colors reflecting changes are present. Documented.
+8. **Comments and revision marks are hidden**
+   - ✅ No comments or tracked changes visible  
+   - ❌ Comments and/or revisions visible — Documented
 
-10. **Syllabus formatting is clean and logical:**  
-    - No text overflow, excessive spacing, or broken numbering.  
-    - Syllabus needs formatting fixes. Documented.
+9. **No tracked change colors (e.g., red, blue, green) are visible**
+   - ✅ No change indicators present  
+   - ❌ Tracked change colors are present — Documented
 
-11. **(MSN courses only)** A course outline follows the syllabus.  
-    - Outline is present.  
-    - Outline is missing. Documented.  
-    - N/A
+10. **(MSN courses only)** Course outline follows the syllabus
+   - ✅ Outline is present  
+   - ❌ Outline is missing — Documented  
+   - 🔲 N/A
 
-12. **(tDAc courses only)** "Syllabus Part 2" and "Setting up for success" resources are visible.  
-    - Both are visible.  
-    - At least one is missing. Documented.  
-    - N/A
+11. **(tDAc courses only)** “Syllabus Part 2” and “Setting Up for Success” resources are visible
+   - ✅ Both resources are present  
+   - ❌ One or both are missing — Documented  
+   - 🔲 N/A
 
-13. **"Course Orientation Acknowledgement" test is present with correct questions**  
-    - The test is present and questions are correct.  
-    - The test is missing or incorrect. Documented.  
-    - N/A (CA500, CA501, CA502 only)
+12. **"Course Orientation Acknowledgement" test is present and correct**
+   - ✅ Test is present and questions are accurate  
+   - ❌ Test is missing or incorrect — Documented  
+   - 🔲 N/A (CA500, CA501, CA502 only)
+
+13. **Due date format is correct**
+   - ✅ Dates are listed with both day and time (e.g., “Tuesday by 11:59 p.m. ET”)  
+   - ❌ Format is missing day or time — Documented
