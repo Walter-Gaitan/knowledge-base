@@ -48,35 +48,29 @@ If all items are compliant, respond with:
    - ✅ Named accordingly  
    - ❌ Not named accordingly — Documented
 
-7. **All mentioned resources that require hyperlinks are linked and functional**
-   - ✅ All required links work correctly  
-   - ❌ A required link is broken or missing — Documented  
-   - 🔲 Not applicable (file is attached/embedded without hyperlink)
-
-
-8. **Comments and revision marks are hidden**
+7. **Comments and revision marks are hidden**
    - ✅ No comments or tracked changes visible  
    - ❌ Comments and/or revisions visible — Documented
 
-9. **No tracked change colors (e.g., red, blue, green) are visible**
+8. **No tracked change colors (e.g., red, blue, green) are visible**
    - ✅ No change indicators present  
    - ❌ Tracked change colors are present — Documented
 
-10. **(MSN courses only)** Course outline follows the syllabus
+9. **(MSN courses only)** Course outline follows the syllabus
    - ✅ Outline is present  
    - ❌ Outline is missing — Documented  
    - 🔲 N/A
 
-11. **(tDAc courses only)** “Syllabus Part 2” and “Setting Up for Success” resources are visible
+10. **(tDAc courses only)** “Syllabus Part 2” and “Setting Up for Success” resources are visible
    - ✅ Both resources are present  
    - ❌ One or both are missing — Documented  
    - 🔲 N/A
 
-12. **"Course Orientation Acknowledgement" test is present and correct**
+11. **"Course Orientation Acknowledgement" test is present and correct**
    - ✅ Test is present and questions are accurate  
    - ❌ Test is missing or incorrect — Documented  
    - 🔲 N/A (CA500, CA501, CA502 only)
 
-13. **Due date format is correct**
+12. **Due date format is correct**
    - ✅ Dates are listed with both day and time (e.g., “Tuesday by 11:59 p.m. ET”)  
    - ❌ Format is missing day or time — Documented
