@@ -105,9 +105,6 @@ When reviewing the Course Overview and Syllabus section in Blackboard, follow th
 
 - Confirm the correct college name and logo appear on the syllabus.
 
-- Check the document’s file name. It should follow this format:  
-  `ClassCode.Section.Term.Instructor` (e.g., `CL820.01.2021F.SD Lane`)
-
 - Test all links in the syllabus.  
   - All hyperlinks must be functional.
 
