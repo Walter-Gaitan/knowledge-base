@@ -2,4 +2,4 @@ title: Knowledge Base
 description: Github Page to create a knowledge base.
 show_downloads: true
 google_analytics:
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: riggraz/no-style-please
