@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🧠 Post-Sync QA Copilot Prompt  
+title: Review criteria
 author: QA Automation Team  
 tags: [LMS, QA, Automation, Course Shells]  
 date: 2025-07-23 
