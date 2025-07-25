@@ -1,3 +1,10 @@
+---
+layout: default
+title: Findings reporter
+author: QA Automation Team  
+tags: [LMS, QA, Automation, Course Shells]  
+---
+
 ## 📝 Reporting Findings
 
 All QA findings must be reported using the following format:

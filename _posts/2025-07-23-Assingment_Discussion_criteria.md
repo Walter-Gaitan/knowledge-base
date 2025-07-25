@@ -1,3 +1,11 @@
+---
+layout: default
+title: 🧠 Post-Sync QA Copilot Prompt  
+author: QA Automation Team  
+tags: [LMS, QA, Automation, Course Shells]  
+date: 2025-07-23 
+description: A checklist for QA reviewers to ensure assignments and discussions meet LMS standards and syllabus requirements.
+---
 # Assignment Review Criteria
 
 When reviewing each assignment in the course, evaluate it against the following 7 criteria. Only report findings when a change is required. If everything complies, note clearly that the assignment meets all criteria. Finally, provide a response as shown in the confirmed QA findings
