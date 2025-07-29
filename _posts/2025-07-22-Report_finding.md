@@ -9,7 +9,7 @@ tags: [LMS, QA, Automation, Course Shells]
 
 All QA findings must be reported using the following format:
 
-**• [Section] | [Content Type]: [Issue identified + clear revision suggestion]. (Severity: Low/Medium/High)**
+**• [Module] | [Section]: [Issue identified + clear revision suggestion]. (Severity: Low/Medium/High)**
 
 **Example:**  
 **• Course Overview | Instructor Info**: Instructor email is missing. Add a valid institutional contact email. **(Severity: Medium)**
@@ -32,3 +32,5 @@ All QA findings must follow the author’s tone:
   - **Clarity** and **relevance** of content
   - **Alignment** with institutional or branding standards
 
+**Example:**  
+**• Module 4 | Assignment**: The assignment allows submission as either a chart or essay but does not specify acceptable file formats. Add guidance on preferred formats (e.g., PDF, DOCX) to ensure compatibility with Blackboard. **(Severity: Medium)**
