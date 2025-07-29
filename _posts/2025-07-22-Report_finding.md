@@ -21,6 +21,8 @@ All QA findings must follow the author’s tone:
 - Direct and specific
 - No filler or unnecessary softening
 - Actionable and clearly structured
+- Avoid being overly formal, it should sound as the author tone
+- Avoid use of verbiage or symbols only use by a GPT like 'delve' or Em dashes '—'
 
 #### 📌 Reporting Guidelines:
 - Use **bold** for the **Section**, **Content Type**, and **Severity rating**.
