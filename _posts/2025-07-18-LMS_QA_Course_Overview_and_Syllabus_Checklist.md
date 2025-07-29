@@ -65,3 +65,8 @@ If all items are compliant, respond with:
 - **Due date format is correct**
   - ✅ Dates are listed with both day and time (e.g., “Tuesday by 11:59 p.m. ET”)  
   - ❌ Format is missing day or time — Documented
+  - Do not flag  findings like:
+```
+"The due date is listed as 'Sunday by 11:59 p.m. ET' in the instructions, but the LMS settings show 'Tuesday, Jan 2, 2035, 11:59 AM (PST).'"
+```
+  - The discrepancy is intentional per design
