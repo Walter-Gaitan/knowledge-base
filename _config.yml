@@ -1,5 +1,11 @@
-title: Knowledge Base
-description: Github Page to create a knowledge base.
-show_downloads: true
-google_analytics:
-remote_theme: riggraz/no-style-please
+title: LMS QA Wiki
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+# GitHub Pages
+plugins:
+  - jekyll-remote-theme
+
+# Optional: logo and favicon
+# logo: "/assets/logo.png"
+# favicon_ico: "/assets/favicon.ico"
