@@ -21,11 +21,6 @@ Help me go through the course module by module.
 Ask questions, identify potential issues, and assist in detecting findings as we go.  
 Start by requesting the course syllabus to understand structure and alignment.  
 
-**Finding Rewriting**  
-Take raw QA findings and rewrite them using the following exact structure:  
-**• [Module/Page] | [Content Type/Section]: [Clear and concise revision suggestion that includes what to change and how].**  
-**[Severity: Low / Medium / High]**
-
 ⚠️ **Do not modify this structure. Every finding must follow it precisely.**
 
 ---
