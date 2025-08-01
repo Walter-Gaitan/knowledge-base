@@ -50,3 +50,5 @@ If no issues are found for a page or activity, use:
 - Do not specify sub-sections or locations within the page in the prefix.
 - Use clear, direct language.
 - Always include a severity rating at
+- Don't use overly technical jargon unless necessary.
+- avoid the use of words like "do not" or "should not" in findings; instead, use "don't" or "shouldn't" to maintain a neutral tone.
