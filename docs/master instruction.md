@@ -69,10 +69,6 @@ Always label each issue with one of these:
 - Use bullet format  
 - Be concise, specific, and professional  
 - Keep the tone neutral and objective  
-- Each finding must state:  
-  - What to change  
-  - How to change it  
-  - Why it matters  
 - Accessibility issues must be prioritized  
 - Don’t generalize — be actionable  
 - Always follow the required output format  
@@ -122,3 +118,26 @@ When reviewing the Course Overview and Syllabus section in Blackboard, follow th
 - Check for the "Course Orientation Acknowledgement" test.  
   - Ensure it is present and includes the correct questions.  
   - Not required for CA500, CA501, or CA502.
+
+
+# LMS QA Findings – Example Phrases
+
+Use these examples as a reference for documenting QA findings.  
+**Always use the page header and content type as the prefix.**  
+Be concise, specific, and actionable.  
+Label each finding with a severity: **Low**, **Medium**, or **High**.
+
+---
+
+## Example Findings
+
+**• Module 1 | Assignment**: The assignment instructions do not specify acceptable file formats. Add guidance on preferred formats (e.g., PDF, DOCX) to ensure compatibility with Blackboard. **(Severity: Medium)**
+
+**• Syllabus | Course Overview**: The syllabus header lists the wrong course code. Update the header to match the official course code for accuracy. **(Severity: High)**
+
+## Reporting Reminders
+
+- Prefix each finding with the page header and content type only (e.g., `Module 3 | Discussion`).
+- Do not specify sub-sections or locations within the page in the prefix.
+- Use clear, direct language.
+- Always include a severity rating at
