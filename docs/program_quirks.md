@@ -40,4 +40,12 @@ This page documents exceptions and special rules that differ by program. Use thi
 
 ---
 
+## Cengage
+
+| Area | Quirk |
+|------|-------|
+| **QA in Master Shell** | Do **not** click on Cengage activities during QA in the Master Shell — it marks the activity as "In Progress," which prevents Cengage from making changes in the gradebook. If you accidentally enter an activity, **Submit** it without answering so the attempt can be deleted. |
+
+---
+
 *Found a quirk that's not listed here? Add it to keep this reference up to date.*
