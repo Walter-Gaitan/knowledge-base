@@ -48,4 +48,12 @@ This page documents exceptions and special rules that differ by program. Use thi
 
 ---
 
+## The Gupthas
+
+| Area | Quirk |
+|------|-------|
+| **Terminology** | They like to call all activities assignments, even if they are discussions. |
+
+---
+
 *Found a quirk that's not listed here? Add it to keep this reference up to date.*
