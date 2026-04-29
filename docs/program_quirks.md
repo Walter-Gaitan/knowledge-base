@@ -12,6 +12,7 @@ This page documents exceptions and special rules that differ by program. Use thi
 | **Course Key Verbiage** | Course Key verbiage must be placed inside the "Start Here" module. |
 | **Release Conditions** | Release conditions for Course Orientation Acknowledgment do **not** apply to TDAC. |
 | **Due Dates** | The due dates are set on the Post-QA for TDAC. |
+| **Course Open Time** | TDAC courses open at **3:00–3:30 AM EDT** on the start day (12:00–12:30 AM PDT). This is expected behavior. |
 
 ---
 
@@ -28,6 +29,7 @@ This page documents exceptions and special rules that differ by program. Use thi
 | Area | Quirk |
 |------|-------|
 | **Due Dates** | Discussion due dates may differ from the standard syllabus pattern. |
+| **Interpretation of Mondays** | When a Monday is mentioned (e.g., class on Monday, May 4th), the corresponding assignment is due the following Monday (e.g., May 11th). |
 | **Course Outline** | A course outline and schedule document must be provided. |
 
 ---
@@ -53,6 +55,14 @@ This page documents exceptions and special rules that differ by program. Use thi
 | Area | Quirk |
 |------|-------|
 | **Terminology** | They like to call all activities assignments, even if they are discussions. |
+
+---
+
+## A&S
+
+| Area | Quirk |
+|------|-------|
+| **Term Week Numbering** | Week numbering is **universal across the entire college** — it applies the same to all courses on both Moodle and Blackboard. Week 1 always starts on the first day of the term (e.g., May 4), regardless of when a specific course begins. For example, if a course starts on May 25, that course begins in **Week 4** of the term, not Week 1. All courses are taught within the full term range (e.g., May 4 – August 16). |
 
 ---
 

@@ -20,6 +20,7 @@ This document covers the available settings for Blackboard activities and gradeb
 > [!IMPORTANT]
 > **MSN ONLY:** 
 > - The **Gradebook calculation type** should be set to "weighted", and the overall grade should be displayed as a percentage.
+> - When a Monday is mentioned (e.g., class on Monday, May 4th), the corresponding module's assignment is due the following Monday (e.g., May 11th).
 
 ---
 
