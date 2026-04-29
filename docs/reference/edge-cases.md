@@ -1,6 +1,12 @@
+---
+title: Edge Cases
+parent: Reference
+nav_order: 2
+---
+
 # Course QA Edge Cases
 
-Things that can be wrong or misleading when auditing a Blackboard course. Use this as a companion to the [SQA Checklist](student_qa_checklist.md) and [TQA Checklist](tqa_checklist.md).
+Things that can be wrong or misleading when auditing a Blackboard course. Use this as a companion to the [SQA Checklist](../sqa/checklist.md) and [TQA Checklist](../tqa/checklist.md).
 
 ---
 

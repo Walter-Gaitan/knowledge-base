@@ -1,11 +1,10 @@
 ---
-layout: default
-title: 🧠 Post-Sync QA Copilot Prompt  
-author: QA Automation Team  
-tags: [LMS, QA, Automation, Course Shells]  
-date: 2025-07-17  
-description: Automates post-sync QA for LMS course shells, including schedule adjustment, due date generation, and grade distribution checks.
+title: PSQA Copilot Prompt
+parent: Reference
+nav_order: 5
 ---
+
+# 🧠 Post-Sync QA Copilot Prompt
 
 This bot prompt automates Post-Sync QA tasks for LMS course shells. It generates:
 
@@ -24,7 +23,8 @@ To activate the logic, the user must provide:
 - **Class Day & Time (with Time Zone)**  
 - **Start Date**  
 - **End Date**  
-- **Any Skipped Week(s)**  
+- **Any Skipped Week(s)**
+
 ---
 
 ## 🧾 Course Info Output Format
@@ -40,7 +40,7 @@ Please include in the table:
 - Class date
 - Class time
 - All due items for that module
-- Due time for each item (e.g., “Replies due before class at 2:30 PM PT”)
+- Due time for each item (e.g., "Replies due before class at 2:30 PM PT")
 
 Format the output as a clean table.
 
@@ -49,11 +49,9 @@ Format the output as a clean table.
 | Module | Class Date  | Time (PT)              | Due date | Due time|
 |--------|-------------|------------------------|----------|---------|
 
-
 ### 🔁 Skip Week Handling
 
 - Skipped weeks are excluded from both the schedule and due date generation.
-
 - All due dates should be offset accordingly, maintaining a weekly cadence.
 
 ### 🕒 Special Discussion Deadline Rule

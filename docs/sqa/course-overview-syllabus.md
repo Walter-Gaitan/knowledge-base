@@ -1,10 +1,7 @@
 ---
-layout: default
-title: LMS QA Course Overview and Syllabus Checklist  
-author: WG
-date: 2025-07-18  
-tags: [LMS, QA, Syllabus, Course Overview]  
-description: Step-by-step checklist for reviewing LMS course overview and syllabus for quality assurance.
+title: Course Overview & Syllabus
+parent: SQA — Student QA
+nav_order: 5
 ---
 
 # ✅ LMS QA Agent Instructions: Course Overview and Syllabus
@@ -52,7 +49,7 @@ If all items are compliant, respond with:
   - ❌ Outline is missing — Documented  
   - 🔲 N/A
 
-- **(tDAc courses only)** “Syllabus Part 2” and “Setting Up for Success” resources are visible
+- **(tDAc courses only)** "Syllabus Part 2" and "Setting Up for Success" resources are visible
   - ✅ Both resources are present  
   - ❌ One or both are missing — Documented  
   - 🔲 N/A
@@ -63,7 +60,7 @@ If all items are compliant, respond with:
   - 🔲 N/A (CA500, CA501, CA502 only)
 
 - **Due date format is correct**
-  - ✅ Dates are listed with both day and time (e.g., “Tuesday by 11:59 p.m. ET”)  
+  - ✅ Dates are listed with both day and time (e.g., "Tuesday by 11:59 p.m. ET")  
   - ❌ Format is missing day or time — Documented
   - Do not flag  findings like:
 ```

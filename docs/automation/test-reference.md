@@ -1,3 +1,9 @@
+---
+title: Test Reference
+parent: Automation
+nav_order: 2
+---
+
 # Test Reference
 
 A complete reference for every test file in the suite, what it does, and when to use it.
@@ -29,7 +35,6 @@ The test suite uses two authentication strategies:
 | **When to use** | Debugging auth issues, or refreshing the session for storage-state tests |
 
 **Flow**:
-
 1. Navigate to `/ultra/stream`
 2. Detect if already logged in (profile link or URL check)
 3. Click SAML login → handle Microsoft "Pick an account" or email entry
@@ -48,8 +53,7 @@ The test suite uses two authentication strategies:
 | **When to use** | Primary test — run this for a full course verification |
 
 **Flow**:
-
-1. **Login Phase** — Same flow as `01_login.spec.ts`, but inline (no separate step needed)
+1. **Login Phase** — Same flow as `01_login.spec.ts`, but inline
 2. **Navigate to Course** — Goes to `COURSE_URL` from `.env`
 3. **Verify Modules** — Checks visibility of all 18 expected modules:
     - `Start Here`
@@ -57,7 +61,7 @@ The test suite uses two authentication strategies:
     - `Start Course Orientation`
     - `Module 1` through `Module 15`
 
-Each module is scrolled into view with a **10-second timeout** to accommodate Blackboard's lazy loading. Results are summarized at the end with ✅/❌ indicators.
+Each module is scrolled into view with a **10-second timeout** to accommodate Blackboard's lazy loading.
 
 ---
 
@@ -70,7 +74,6 @@ Each module is scrolled into view with a **10-second timeout** to accommodate Bl
 | **When to use** | Quick daily check before running the full audit |
 
 **Flow**:
-
 1. Navigate to `COURSE_URL`
 2. Check if redirected to a login page → fail if session expired
 3. Look for the "Start Here" module → pass if visible
@@ -81,8 +84,6 @@ Each module is scrolled into view with a **10-second timeout** to accommodate Bl
 ---
 
 ## Legacy / WIP Tests (`tests/qa/`)
-
-These are earlier versions of the test specs, kept for reference. They all use `state.json` for authentication.
 
 | File | Purpose | Status |
 |------|---------|--------|

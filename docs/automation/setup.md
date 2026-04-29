@@ -1,3 +1,9 @@
+---
+title: Setup Guide
+parent: Automation
+nav_order: 1
+---
+
 # Automation Setup Guide
 
 This guide walks you through setting up and running the Playwright-based Blackboard QA automation suite.
@@ -43,7 +49,7 @@ cp .env.example .env
 | Variable | Required | Description | Example |
 |----------|----------|-------------|---------|
 | `BASE_URL` | Yes | Blackboard base URL | `https://learn.pacificcollege.edu/ultra/admin` |
-| `COURSE_URL` | Yes | Full URL to the course outline you want to verify | `https://learn.pacificcollege.edu/ultra/courses/_15238_1/outline` |
+| `COURSE_URL` | Yes | Full URL to the course outline | `https://learn.pacificcollege.edu/ultra/courses/_15238_1/outline` |
 | `BLACKBOARD_USERNAME` | Yes | Your Blackboard / Microsoft login email | `studentqa@pacificcollege.edu` |
 | `BLACKBOARD_PASSWORD` | Yes | Your Blackboard password | *(keep secret)* |
 | `HEADLESS` | No | Run browser invisibly (`True`) or visibly (`False`) | `False` |
@@ -107,19 +113,19 @@ The Playwright configuration lives in `playwright.config.ts`. Key settings:
 
 ### "Login verification failed: Success markers not found"
 - **Cause**: Microsoft login flow changed, or credentials are wrong.
-- **Fix**: Verify your `.env` credentials. Run `npm run login` in headed mode to watch the flow and identify where it stalls.
+- **Fix**: Verify your `.env` credentials. Run `npm run login` in headed mode to watch the flow.
 
 ### "Session Expired" on pulse or legacy tests
 - **Cause**: `state.json` contains an expired session cookie.
-- **Fix**: Run `npm run audit` (which logs in fresh) or `npm run login` to refresh the session.
+- **Fix**: Run `npm run audit` or `npm run login` to refresh the session.
 
 ### Microsoft "Pick an Account" or MFA prompts
 - **Cause**: Multiple Microsoft accounts cached in the browser profile.
-- **Fix**: The login flow handles "Pick an account" automatically. If MFA is required, you must complete it manually while the browser is visible (`HEADLESS=False`).
+- **Fix**: The login flow handles "Pick an account" automatically. If MFA is required, complete it manually while the browser is visible (`HEADLESS=False`).
 
 ### Modules 7+ fail with timeout
 - **Cause**: Blackboard lazy-loads module content. The timeout may still be too short on slow connections.
-- **Fix**: The audit test uses a 10-second scroll timeout. If issues persist, increase the timeout in `02_blackboard_audit.spec.ts` at the `scrollIntoViewIfNeeded({ timeout: 10000 })` call.
+- **Fix**: Increase the timeout in `02_blackboard_audit.spec.ts` at the `scrollIntoViewIfNeeded({ timeout: 10000 })` call.
 
 ### Test report
 After any test run, an HTML report is generated in `playwright-report/`. Open it with:

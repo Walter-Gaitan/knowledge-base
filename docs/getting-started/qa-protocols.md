@@ -1,3 +1,9 @@
+---
+title: QA Protocols
+parent: Getting Started
+nav_order: 2
+---
+
 # LMS QA Protocols and Guidelines
 (Source: https://lmsknowledgebase.miraheze.org/wiki/Main_Page)
 

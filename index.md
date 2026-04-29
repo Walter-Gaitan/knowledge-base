@@ -1,18 +1,9 @@
 ---
 layout: home
 title: Knowledge Base
+nav_exclude: true
 ---
 
-Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answers to common questions about using and managing the Learning Management System. Use the links below to navigate through course materials, policies, and helpful documentation.
+Welcome to the LMS Knowledge Base! Here you'll find resources, guides, and answers to common questions about using and managing the Learning Management System.
 
-* * *
-
-# Blogs
-{% for post in site.posts %}
- 
-<ul>
- 
-<li><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></li>
- 
-</ul>
-{% endfor %}
+**[→ Go to the Documentation](docs/index.md)**

@@ -1,6 +1,12 @@
+---
+title: SQA Advice
+parent: SQA — Student QA
+nav_order: 2
+---
+
 # SQA Advice & Preparation Guide
 
-> **📋 Looking for the full checklist?** See the [SQA Checklist](student_qa_checklist.md) for the complete 43-step verification process.
+> **📋 Looking for the full checklist?** See the [SQA Checklist](checklist.md) for the complete 43-step verification process.
 
 **SQA (Student Quality Assurance)** is the phase where QA Analysts verify the course from the **student's perspective** — ensuring everything a student sees, clicks, and reads works correctly.
 

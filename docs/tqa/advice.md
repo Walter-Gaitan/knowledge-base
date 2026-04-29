@@ -1,6 +1,12 @@
+---
+title: TQA Advice
+parent: TQA — Teacher QA
+nav_order: 2
+---
+
 # TQA Advice & Preparation Guide
 
-> **📋 Looking for the full checklist?** See the [TQA Checklist](tqa_checklist.md) for the complete 48-step verification process.
+> **📋 Looking for the full checklist?** See the [TQA Checklist](checklist.md) for the complete 48-step verification process.
 
 **TQA (Teacher Quality Assurance)** is the phase where Instructional Designers and Faculty prepare the course *before* it reaches the Student QA (SQA) team.
 

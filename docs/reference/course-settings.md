@@ -1,3 +1,9 @@
+---
+title: Course Settings
+parent: Reference
+nav_order: 1
+---
+
 # Activity & Gradebook Settings Checklist for Blackboard
 
 *Settings are set per program. If a course needs a different configuration within the program, it can be adjusted.*

@@ -1,29 +1,33 @@
-# Knowledge Base
+# LMS QA Knowledge Base
 
-Welcome to the Knowledge Base repository!
+Centralized documentation for the Blackboard QA team — processes, checklists, settings, and automation.
 
-## Overview
+## Structure
 
-This repository serves as a centralized location for storing and organizing knowledge, notes, and documentation.
+```
+docs/
+├── getting-started/    ← Onboarding guide & QA protocols
+├── tqa/                ← Teacher QA (Phase 1)
+├── sqa/                ← Student QA (Phase 2)
+├── psqa/               ← Post-Sync QA (Phase 3)
+├── reference/          ← Settings, edge cases, quirks, reporting format
+└── automation/         ← Playwright test suite setup & reference
+```
 
-## Features
+## Quick Links
 
-- Structured markdown files for easy navigation
-- Simple and clean organization
-- Easily extensible for new topics
-
-## Getting Started
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/knowledge-base.git
-    ```
-2. Add your notes or documentation in markdown format.
-3. Commit and push your changes.
+- **New to the team?** Start with [QA Onboarding Guide](docs/getting-started/onboarding-guide.md)
+- **Running a TQA?** Open the [TQA Checklist](docs/tqa/checklist.md)
+- **Running an SQA?** Open the [SQA Checklist](docs/sqa/checklist.md)
+- **Running a PSQA?** Open the [PSQA Checklist](docs/psqa/checklist.md)
+- **Need settings?** See [Course Settings](docs/reference/course-settings.md)
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
+1. Clone the repository
+2. Add or edit markdown files in the appropriate `docs/` subfolder
+3. Add Just-the-Docs front matter (`title`, `parent`, `nav_order`) to new pages
+4. Commit and push your changes
 
 ## License
 

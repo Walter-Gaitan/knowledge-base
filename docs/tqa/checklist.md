@@ -1,8 +1,14 @@
+---
+title: TQA Checklist
+parent: TQA — Teacher QA
+nav_order: 1
+---
+
 # Teacher QA (TQA) Checklist
 
 **Goal**: Verify the course is instructor-ready by performing a comprehensive quality check across all content areas, assessments, and gradebook configuration.
 
-> **Related**: See the [TQA Advice & Preparation Guide](tqa_advice.md) for pro-tips and common pitfalls.
+> **Related**: See the [TQA Advice & Preparation Guide](advice.md) for pro-tips and common pitfalls.
 
 ---
 

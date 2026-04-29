@@ -1,3 +1,9 @@
+---
+title: QA Onboarding Guide
+parent: Getting Started
+nav_order: 1
+---
+
 # Manual QA Onboarding Guide
 
 Welcome to the team! This guide is designed to help you get started as a Manual Quality Assurance (QA) Analyst. Your role is critical in ensuring our Blackboard Ultra courses are error-free, consistent, and user-friendly for students.
@@ -23,8 +29,8 @@ Welcome to the team! This guide is designed to help you get started as a Manual 
 Our goal is to ensure every Blackboard Ultra course shell is "Student Ready" and "Instructor Ready". We check for structural integrity, content accuracy, and compliance with our standards.
 
 ### Key Documents You Will Use
-*   **[QA Protocols](qa_protocols.md)**: The "Rule Book". This document explains *what* makes a course correct (e.g., naming conventions, required modules, accessibility rules).
-*   **[Student QA Checklist](student_qa_checklist.md)**: The "Scorecard". This is the specific list of items you must check for every course (e.g., "Is the Syllabus link working?", "Is Module 1 visible?").
+*   **[QA Protocols](qa-protocols.md)**: The "Rule Book". This document explains *what* makes a course correct (e.g., naming conventions, required modules, accessibility rules).
+*   **[Student QA Checklist](../sqa/checklist.md)**: The "Scorecard". This is the specific list of items you must check for every course (e.g., "Is the Syllabus link working?", "Is Module 1 visible?").
 
 ---
 
@@ -39,7 +45,7 @@ Log in to Blackboard and navigate to the course shell you are assigned to review
 Most of your testing should be done using the **Student Preview** mode in Blackboard. This ensures you see exactly what a student sees (hiding instructor-only files, grade center columns, etc.).
 
 ### Step 3: Run the Checklist
-Open the **[Student QA Checklist](student_qa_checklist.md)** and methodically go through each section:
+Open the **[Student QA Checklist](../sqa/checklist.md)** and methodically go through each section:
 1.  **Course Info & Orientation**: Check the Banner, Syllabus link, and Start Here module.
 2.  **Modules & Navigation**: Ensure all modules are visible and logical.
 3.  **Content Checks**: Open assignments and discussions. Check for broken links, clear instructions, and attached rubrics.
@@ -77,8 +83,8 @@ While your work is primarily manual, we have automated tools to help catch error
 ### Automation Suite (Playwright)
 We have a Playwright test suite that can automatically log in to Blackboard and verify course module visibility. This is useful for quickly checking that all 18 required modules are present.
 
-*   **[Automation Setup](automation_setup.md)** — How to install and run the tests
-*   **[Test Reference](test_reference.md)** — What each test does and when to use it
+*   **[Automation Setup](../automation/setup.md)** — How to install and run the tests
+*   **[Test Reference](../automation/test-reference.md)** — What each test does and when to use it
 
 ### Other Tools
 *   **LanguageTool Reports**: Highlight potential grammar and spelling mistakes.
@@ -86,4 +92,4 @@ We have a Playwright test suite that can automatically log in to Blackboard and 
 
 Use these reports to guide your manual review, but always verify the findings yourself.
 
-**Questions?** Reach out to the Lead QA or refer to the `qa_protocols.md` for deep dives into specific rules.
+**Questions?** Reach out to the Lead QA or refer to the [QA Protocols](qa-protocols.md) for deep dives into specific rules.

@@ -1,11 +1,9 @@
 ---
-layout: default
-title: Review criteria
-author: QA Automation Team  
-tags: [LMS, QA, Automation, Course Shells]  
-date: 2025-07-23 
-description: A checklist for QA reviewers to ensure assignments and discussions meet LMS standards and syllabus requirements.
+title: Review Criteria
+parent: SQA — Student QA
+nav_order: 4
 ---
+
 # Assignment Review Criteria
 
 When reviewing each assignment in the course, evaluate it against the following 7 criteria. Only report findings when a change is required. If everything complies, note clearly that the assignment meets all criteria. Finally, provide a response as shown in the confirmed QA findings
@@ -22,7 +20,7 @@ When reviewing each assignment in the course, evaluate it against the following 
    Confirm that links are functional, formatted as hyperlinks, and open in a new tab.
 
 4. **Due dates match the syllabus**  
-   Cross-check each assignment’s due date with the official syllabus.
+   Cross-check each assignment's due date with the official syllabus.
 
 5. **Rubrics are visible, match the syllabus, and ordered from highest to lowest points**  
    Make sure rubrics are attached, consistent with the syllabus, and logically ordered.
@@ -32,23 +30,24 @@ When reviewing each assignment in the course, evaluate it against the following 
 
 7. **Be concise. Only report if a change is required.**  
    If the assignment meets all criteria, state:  
-   👉 “This assignment meets all QA criteria. No changes required.”  
+   👉 "This assignment meets all QA criteria. No changes required."  
    Do not report a finding unless there is a problem to address.
 
 8. **Required Discussion Guidelines Verbiage**  
    Make sure that each discussion includes the following text in the instructions:
 
    > **Discussion Guidelines**  
-   > To begin your post, click inside the box with “Type a response.” In this box, you can add text, upload a file, or upload media.  
+   > To begin your post, click inside the box with "Type a response." In this box, you can add text, upload a file, or upload media.  
    > For help on how to participate in a discussion, review Discussions in the Blackboard Ultra Help Center.
 
-   Report if this verbiage is
+   Report if this verbiage is missing.
+
 ---
 
 # Discussion Review Criteria
 
 When reviewing the Discussions in a course, follow the 7 criteria below. Only report findings when a change is required. If all items meet QA expectations, clearly state:  
-👉 “All discussion activities meet QA criteria. No changes required.”
+👉 "All discussion activities meet QA criteria. No changes required."
 
 ## ✅ Discussion Review Criteria
 

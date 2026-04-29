@@ -1,3 +1,9 @@
+---
+title: SQA Form Mapping
+parent: SQA — Student QA
+nav_order: 3
+---
+
 # Student QA Form Mapping
 
 **Form URL**: [Internal Link Removed]
@@ -24,7 +30,7 @@
 9. **Header Info (TDAC)** (Radio)
    - "Verify that the header contains the correct class code and name..."
 10. **Syllabus Links** (Radio)
-   - "Review and make sure all links in the syllabus work correctly."
+    - "Review and make sure all links in the syllabus work correctly."
 11. **Comments/Revisions** (Radio)
     - "Comments and revisions are hidden."
 12. **Track Changes Colors** (Radio)

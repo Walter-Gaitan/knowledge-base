@@ -1,8 +1,14 @@
+---
+title: SQA Checklist
+parent: SQA — Student QA
+nav_order: 1
+---
+
 # Student QA (SQA) Checklist
 
 **Goal**: Verify the course is student-ready by checking navigation, content visibility, and link validity from the **Student Preview** perspective.
 
-> **Related**: See the [SQA Advice & Preparation Guide](sqa_advice.md) for pro-tips and common pitfalls.
+> **Related**: See the [SQA Advice & Preparation Guide](advice.md) for pro-tips and common pitfalls.
 
 ---
 
