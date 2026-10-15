@@ -66,7 +66,7 @@ nav_order: 1
 
 - [ ] **6. Grade Distribution** — Overall grade distribution matches syllabus.
 - [ ] **7. Gradebook Sorting** — Sorted: Final Grade → Overall Grade → COA → module activities.
-- [ ] **8. Grade Schema** — "Pacific College Letter" matches required parameters (A: 93.5–100%, A-: 89.5–93.5%, B+: 86.5–89.5%, B: 83.5–86.5%, B-: 79.5–83.5%, C+: 76.5–79.5%, C: 69.5–76.5%, F: 0–69.5%).
+- [ ] **8. Grade Schema** — "Pacific College Letter" (or "PCHS Letter Grade") matches required parameters (A: 93.5–100%, A-: 89.5–93.5%, B+: 86.5–89.5%, B: 83.5–86.5%, B-: 79.5–83.5%, C+: 76.5–79.5%, C: 69.5–76.5%, F: 0–69.5%).
 
 ---
 

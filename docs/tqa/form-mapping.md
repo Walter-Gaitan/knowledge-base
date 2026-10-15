@@ -112,7 +112,7 @@ nav_order: 3
     - Question: "Gradebook settings match program requirements."
     - Action: Select "Correct" (or "Incorrect. Documented").
 41. **Grading Schema** (Radio)
-    - Question: "'Pacific College Letter' grading schema matches required parameters."
+    - Question: "'Pacific College Letter' (or 'PCHS Letter Grade') grading schema matches required parameters."
     - Action: Select "All indications above are met" (or "One or more indications not met. Documented").
 42. **Overall Grade** (Radio)
     - Question: "'Overall Grade' grade item exists."

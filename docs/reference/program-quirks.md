@@ -45,6 +45,7 @@ This page documents exceptions and special rules that differ by program. Use thi
 | Area | Quirk |
 |------|-------|
 | **Raw Links** | ATI resource links are excepted from the "no raw links" rule. |
+| **Activities & Grading** | ATI activities are taken on the vendor's website and grades are manually transferred to Blackboard by the instructor. |
 
 ---
 

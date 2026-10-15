@@ -99,7 +99,7 @@ nav_order: 1
 
 - [ ] **39. Final Grade Item** — "Final Grade" item is present with correct settings *(year set to far future)*.
 - [ ] **40. Gradebook Settings** — Gradebook settings match program requirements.
-- [ ] **41. Grading Schema** — "Pacific College Letter" grading schema matches required parameters.
+- [ ] **41. Grading Schema** — "Pacific College Letter" (or "PCHS Letter Grade") grading schema matches required parameters.
 - [ ] **42. Overall Grade** — "Overall Grade" grade item exists.
 - [ ] **43. Grade Distribution** — Overall grade distribution matches syllabus; course total = 100%.
 - [ ] **44. Gradebook Sorting** — All Gradebook items sorted correctly *(Final Grade → Overall Grade → COA → module activities in order)*.
